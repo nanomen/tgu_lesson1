@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #252525;
+}
+
+a, a:visited {
+	color: #37c;
+	text-decoration: none;
+}
+
+.layout {
+    width: 800px;
+    margin: 0 auto;
+    background: appworkspace;
+}
+
+.header {
+    padding: 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+.footer {
+    padding: 20px;
+    border-top: 2px solid #ccc;
+}
+
+.title {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.form__item {
+	margin-bottom: 20px;
+}
+
+.form__item label {
+	font-size: 12px;
+	display: block;
+}
+
+.form__item input {
+	width: 200px;
+}
+
+.btn {
+	font-size: 14px;
+	padding: 8px 10px;
+	color: white;
+	border: 0;
+	background: #ff8200;
+}
+
+.content {
+    padding: 20px;
+}
+
+.list {}
+
+.list__item {
+	margin-bottom: 20px;
+	padding: 8px;
+    background: bisque;
+}
+
+.list__item__title {
+	margin-bottom: 8px;
+}
